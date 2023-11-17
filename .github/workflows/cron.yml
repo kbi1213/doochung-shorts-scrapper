@@ -33,7 +33,7 @@ jobs:
           echo "GOOGLE_PRIVATE_KEY=$GOOGLE_PRIVATE_KEY" >> .env
         env:
           YOUTUBE_URL: ${{secrets.YOUTUBE_URL}}
-          GOOGLE_SHEET_ID: ${{secrets.NOTION_DATABASE_ID}}
+          GOOGLE_SHEET_ID: ${{secrets.GOOGLE_SHEET_ID}}
           GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL}}
           GOOGLE_PRIVATE_KEY: ${{secrets.GOOGLE_PRIVATE_KEY}}
 
