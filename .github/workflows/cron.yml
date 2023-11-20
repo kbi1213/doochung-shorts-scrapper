@@ -44,7 +44,7 @@ jobs:
 
       # 해당 타입스크립트 프로젝트를 빌드합니다.
       - name: Build TypeScript
-        run: npm build
+        run: npm run build
 
       # 코드를 실행합니다.
       - name: Execute code
